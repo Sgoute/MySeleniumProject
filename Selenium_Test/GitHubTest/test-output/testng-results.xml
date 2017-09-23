@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48710" started-at="2017-09-23T20:46:17Z" finished-at="2017-09-23T20:47:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48710" started-at="2017-09-23T20:46:17Z" finished-at="2017-09-23T20:47:05Z">
+      <class name="GitHubTest.GitHubTest.AppTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:GitHubTest.GitHubTest.AppTest@feb3fa]" name="beforeTest" is-config="true" duration-ms="34324" started-at="2017-09-24T02:16:17Z" finished-at="2017-09-24T02:16:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Home()[pri:0, instance:GitHubTest.GitHubTest.AppTest@feb3fa]" name="Home" duration-ms="14254" started-at="2017-09-24T02:16:51Z" finished-at="2017-09-24T02:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home -->
+      </class> <!-- GitHubTest.GitHubTest.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

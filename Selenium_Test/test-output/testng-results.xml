@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parameterization Test Suite" duration-ms="118" started-at="2017-09-21T22:19:54Z" finished-at="2017-09-21T22:19:54Z">
+    <groups>
+    </groups>
+    <test name="Testing Parameterization" duration-ms="118" started-at="2017-09-21T22:19:54Z" finished-at="2017-09-21T22:19:54Z">
+      <class name="testNGparameters.TestParameters">
+        <test-method status="PASS" signature="testCaseOne(java.lang.String)[pri:0, instance:testNGparameters.TestParameters@c0edeb]" name="testCaseOne" duration-ms="55" started-at="2017-09-22T03:49:54Z" finished-at="2017-09-22T03:49:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+        <test-method status="PASS" signature="testCaseTwo(java.lang.String, java.lang.String)[pri:0, instance:testNGparameters.TestParameters@c0edeb]" name="testCaseTwo" duration-ms="0" started-at="2017-09-22T03:49:54Z" finished-at="2017-09-22T03:49:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseTwo -->
+      </class> <!-- testNGparameters.TestParameters -->
+    </test> <!-- Testing Parameterization -->
+  </suite> <!-- Parameterization Test Suite -->
+</testng-results>
