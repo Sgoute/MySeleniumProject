@@ -18,24 +18,24 @@ public abstract class AbstractionEmployee
 		this.id= id;
 	}
 
-	public   void employeeName()
+	public  void  employeeName()
 	{
-		//System.out.println("Emoployee name is "+this.name);
+		System.out.println("Emoployee name is "+this.name);
 	}
 	public void employeeId()
 	{
-		//System.out.println("Emoployee name is "+this.id);
+		System.out.println("Emoployee name is "+this.id);
 	}
 	
 	public String getName()
 	{
-		//System.out.println("Emoployee name is "+name);
+		System.out.println("Emoployee name is "+name);
 		return name;
 		
 	}
 	public int getId()
 	{
-	//	System.out.println("Emoployee name is "+id);
+		System.out.println("Emoployee name is "+id);
 		return id;
 		
 	}

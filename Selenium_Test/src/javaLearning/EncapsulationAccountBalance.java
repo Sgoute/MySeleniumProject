@@ -8,9 +8,10 @@ public class EncapsulationAccountBalance
 		return balance;
 		
 	}
-	public void  setBalance(String bal)
+	public void setBalance(String bal)
 	{
-		this.balance=bal;
+		this.balance = bal;
 	}
-
+	
+	
 }
